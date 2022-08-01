@@ -1,8 +1,11 @@
 // Imports Route from React-Router - Route is a component
 // Need to specify path and which component should be rendered (below in the return of App)
+
 // Switch Component is imported to limit Routes, the one matching the path first and render that Route
 // but we can use the exact prop and Switch won't take the path matching first
-import { Route, Switch } from "react-router-dom";
+
+// Redirect Component that if it gets rendered, redirects the user somewhere else
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
@@ -15,6 +18,9 @@ function App() {
       <MainHeader />
       <main>
         <Switch>
+          <Route path="/" exact>
+            <Redirect to="/welcome" />
+          </Route>
           <Route path="/welcome">
             <Welcome />
           </Route>
