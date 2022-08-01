@@ -1,4 +1,4 @@
-# React Router - SPA
+# React Router Introduction
 
 ## Based on Udemy's React Course - Maximilian Schwarzmüller
 
