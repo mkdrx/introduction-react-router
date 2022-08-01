@@ -5,13 +5,13 @@
 - Clone the project
 
 ```bash
-  git clone https://github.com/mkdrx/react-router-spa.git
+  git clone https://github.com/mkdrx/introduction-react-router.git
 ```
 
 - Go to the project directory
 
 ```bash
-  cd react-router-spa
+  cd introduction-react-router
 ```
 
 - Install dependencies
